@@ -45,6 +45,10 @@ const MovieDetails = () => {
           <strong>Release Date : </strong>
           {movie.release_date}
         </p>
+        <p className="col voteAverage">
+          <strong>Vote Average : </strong>
+          {movie.vote_average.toFixed(1)}
+        </p>
       </div>
     </div>
   );
