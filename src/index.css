@@ -1,0 +1,21 @@
+@import "https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+/* Añade estos estilos al archivo CSS correspondiente */
+.author {
+  font-size: 1.5rem;
+  color: #555; /* Puedes ajustar el color según tus preferencias */
+  margin-top: 10px; /* Añade un margen superior para separar del contenido anterior */
+  text-align: center; /* Centra el texto */
+}
