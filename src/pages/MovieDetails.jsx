@@ -41,6 +41,10 @@ const MovieDetails = () => {
           <strong>Description : </strong>
           {movie.overview}
         </p>
+        <p className="col releaseDate">
+          <strong>Release Date : </strong>
+          {movie.release_date}
+        </p>
       </div>
     </div>
   );

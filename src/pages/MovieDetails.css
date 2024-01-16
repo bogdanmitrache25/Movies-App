@@ -55,3 +55,7 @@
 .backButton:hover {
   background-color: #2980b9;
 }
+
+.releaseDate {
+  color: aquamarine;
+}
