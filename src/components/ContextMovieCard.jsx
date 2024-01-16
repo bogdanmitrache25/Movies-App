@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { get } from "../data/httpClient";
 import MovieCard from "./MovieCard";
-import "../components/contextMovieCard.css";
+import "./contextMovieCard.css";
 
 const ContextMovieCard = () => {
   const [movies, setMovies] = useState([]);
