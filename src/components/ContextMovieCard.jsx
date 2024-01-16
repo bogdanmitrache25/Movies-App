@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import { get } from "../data/httpClient";
 import MovieCard from "./MovieCard";
-import "./contextMovieCard.css"; // Corregido aquí
+import "./ContextMovieCard.css"; // Corregido aquí
 
 const ContextMovieCard = () => {
   const [movies, setMovies] = useState([]);
