@@ -1,7 +1,8 @@
+// ContextMovieCard.jsx
 import React, { useState, useEffect } from "react";
 import { get } from "../data/httpClient";
 import MovieCard from "./MovieCard";
-import "./contextMovieCard.css";
+import "./contextMovieCard.css"; // Corregido aquí
 
 const ContextMovieCard = () => {
   const [movies, setMovies] = useState([]);
