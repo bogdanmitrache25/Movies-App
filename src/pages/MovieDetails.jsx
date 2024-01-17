@@ -26,7 +26,7 @@ const MovieDetails = () => {
 
       <div className=" col movieDetails">
         <Link to="/" className="backButton">
-          Go Back to Home
+          Home 🏠
         </Link>
 
         <p className="title">
